@@ -1,3 +1,6 @@
+/* I have made the whole site with 1600px max viewport width in mind. */
+
+
 header{
     background-color: #1a0b2e;
     padding-top: 16px;
@@ -217,4 +220,67 @@ nav ul{
 .linkbar div a{
     color: white;
     text-decoration: none;
+}
+
+.meet-host-section{
+    background-color: #1a0b2e;
+    max-width: 1600px;
+}
+
+.meet-host-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.host-card{
+    display: flex;
+    padding: 40px;
+    background-color: #351165;
+    border-radius: 40px;
+    gap: 24px;
+    align-items: center;
+}
+
+.episode-section{
+    background-color: #1a0b2e;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.episode-card{
+    width: 380px;
+    height: 440px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    background-color: #351165;
+}
+
+.episode-cards{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.episode-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
