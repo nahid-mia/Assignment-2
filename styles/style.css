@@ -133,3 +133,88 @@ nav ul{
     width: 240px;
     height: 94px;
 }
+
+.main-grid-section{
+    background-color: #230e3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    max-width: 1600px;
+    padding-bottom: 120px;
+}
+
+.box1{
+    grid-area: box1;    
+}
+.box2{
+    grid-area: box2;    
+}
+
+.box3{
+    grid-area: box3;    
+}
+
+.box4{
+    grid-area: box4;    
+}
+
+.box5{
+    grid-area: box5;    
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    grid-template-areas: 
+        "box1 box2 box2"
+        "box1 box3 box3"
+        "box4 box4 box5";
+}
+
+.box1, .box2, .box3, .box4, .box5{
+    background-color: #351165;
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.techwave-footer{
+    background-image: url(../assets/footer-bg.png);
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 412px;
+    margin-left: 70px;
+
+    /* The margin is to adjust the position since other methods were not working. */
+}
+
+.linkbar{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-top: 10px;
+}
+
+.linkbar div a{
+    color: white;
+    text-decoration: none;
+}
