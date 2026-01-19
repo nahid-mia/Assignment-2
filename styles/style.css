@@ -1,0 +1,133 @@
+header{
+    background-color: #1a0b2e;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+}
+
+.gradient-text{
+    background: linear-gradient(
+        to top right,
+        #f7e93f 0%,
+        #fb09b4 51%,
+        #9100f8 100%
+    );
+
+    /* I learnt this from chatgpt that gradient doesn't work directly on text, so we have to use it. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    color: white;
+}
+
+.btn{
+    background: linear-gradient(
+        to top right,
+        #f7e93f 0%,
+        #fb09b4 51%,
+        #9100f8 100%
+    );
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 9px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.techwave-banner-section{
+    background-image: url(../assets/hero-bg.png);
+    max-width: 1600px;
+    max-height: 760px;
+    background-size: cover;
+}
+
+.techwave-banner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.techwave-banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 550px;
+    max-height: 558px;
+    margin-top: 70px;
+}
+
+.banner-button{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.circle-container{
+    background-image: url(../assets/hero-circle.png);
+    width: 350px;
+    height: 350px;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge{
+    border:none;
+    border-radius: 20px;
+    background-color: #00ff88;
+    color: #1a0b2e;
+    padding: 5px 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 80px;
+    right: 630px;
+}
+
+.about-section{
+    background-color: #1a0b2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.about-container{
+    max-width: 1200px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+}
+
+.card{
+    width: 240px;
+    height: 94px;
+}

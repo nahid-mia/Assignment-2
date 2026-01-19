@@ -3,17 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/font.css">
     <title>Assignmnet-02</title>
 </head>
-<body>
+<body class="inter-font">
     <header>
-        <div class="logo"></div>
-        <nav></nav>
-        <div class="btn"></div>
+        <section class="container">
+            <div class="logo">Tech<span class="gradient-text">Wave</span></div>
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Episodes</li>
+                <li>Host</li>
+            </ul>
+        </nav>
+        <div class="btn">
+            <div style="font-size: 16px; color: white;">Subscribe</div>
+            <div><i class="fa-solid fa-arrow-right" style="color: white;"></i></div>
+        </div>
+        </section>
     </header>
     <main>
-        <section class="techwave-banner-section"></section>
-        <section class="about-section"></section>
+        <section class="techwave-banner-section">
+            <div class="techwave-banner-container">
+                <div class="badge">
+                    <div>NEW</div>
+                </div>
+                <div class="circle-container">
+                    <img src="assets/microphone.png" alt="">
+                </div>
+                <div>
+                    <h1 style="color: white;">TechWave</h1>
+                    <p style="color: white; font-size: 13px;">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                    <div class="banner-button">
+                        <div class="btn">
+                            <div><img src="assets/spotify.png" alt=""></div>
+                            <div style="color: white;">Listen On Spotify</div>
+                        </div>
+                        <div class="btn" style="color: #00ff88; background: none; border: 2px solid #00ff88;">
+                            <div><img src="assets/message.png" alt=""></div>
+                            <div>Subscribe</div>
+                       </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <section class="about-section">
+            <div class="about-container">
+                <div style=" margin-top: 50px; color: white;">
+                    <h1 style="margin: 0px;">About The Podcast</h1>
+                    <p style="font-size: 13px;">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br> We break down complex topics into digestible insights, explore productivity strategies that actually work, <br> and share stories of personal growth from industry leaders.</p>
+                    <p style="font-size: 13px; margin-top: 30px;">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+                </div>
+                <hr style="background-color: #270a4d; height: 1px; border: none; margin-top: 40px; margin-bottom: 40px;">
+                <div class="cards">
+                    <div class="card">
+                        <div style="font-size: 30px; font-weight: bold; color: #00ff88;">150K+</div>
+                        <div style="color: white; font-size: 14px;">MONTHLY LISTENERS</div>
+                    </div>
+                    <div class="card">
+                        <div style="font-size: 30px; font-weight: bold; color: #00ff88;">200+</div>
+                        <div style="color: white; font-size: 14px;">EPISODES PUBLISHED</div>
+                    </div>
+                    <div class="card">
+                        <div style="font-size: 30px; font-weight: bold; color: #00ff88;">4.9 <i class="fa-solid fa-star"></i></div>
+                        <div style="color: white; font-size: 14px;">AVERAGE RATING</div>
+                    </div>
+                    <div class="card">
+                        <div style="font-size: 30px; font-weight: bold; color: #00ff88;">50+</div>
+                        <div style="color: white; font-size: 14px;">INDUSTRY EXPERTS</div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
         <section class="main-grid-section"></section>
         <section class="episode-section"></section>
         <section class="meet-host-section"></section>
