@@ -2,6 +2,7 @@ header{
     background-color: #1a0b2e;
     padding-top: 16px;
     padding-bottom: 16px;
+    max-width: 1600px;
 }
 
 .container{
@@ -65,7 +66,6 @@ nav ul{
     justify-content: center;
     align-items: center;
     padding-bottom: 70px;
-    position: relative;
 }
 
 .techwave-banner-container{
@@ -93,6 +93,7 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .badge{
@@ -103,8 +104,8 @@ nav ul{
     padding: 5px 10px;
     font-weight: bold;
     position: absolute;
-    top: 80px;
-    right: 630px;
+    top: 20px;
+    right: 30px;
 }
 
 .about-section{
@@ -115,6 +116,7 @@ nav ul{
     align-items: center;
     text-align: center;
     padding-bottom: 120px;
+    max-width: 1600px;
 }
 
 .about-container{
