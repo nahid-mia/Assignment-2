@@ -54,12 +54,10 @@ nav ul{
     gap: 5px;
     padding: 9px 15px;
     border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .btn:hover{
-    background-color: #ff00bb;
+    cursor: pointer;
 }
 
 .techwave-banner-section{

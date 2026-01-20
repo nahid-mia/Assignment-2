@@ -133,3 +133,34 @@
         padding: 20px 0px;
     }
 }
+
+@media screen and (min-width:577px) and (max-width:992px){
+
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .episode-cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .episode-card{
+        width: 70%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .linkbar{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .meet-host-container{
+        margin: auto;
+    }
+
+    .host-card{
+        padding: 30px;
+    }
+}
