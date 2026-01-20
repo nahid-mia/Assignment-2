@@ -1,0 +1,109 @@
+@media screen and (max-width:576px){
+
+    .container nav,
+    .container .btn{
+        display: none;
+    } 
+
+    .hidden-logo{
+        display: block;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container{
+        margin: 0px 20px;
+        /* max-width: 500px; */
+    }
+
+    .circle-container{
+        width: 250px;
+        height: 250px;
+    }
+
+    .circle-container img{
+        width: 70px;
+        height: 100px;
+    }
+
+    .badge{
+        top: 5px;
+    }
+
+    .about-section{
+        max-width: 576px;
+    }
+
+    .about-container{
+        padding: 0px;
+        max-width: 500px;
+        box-sizing: border-box;
+    }
+    
+
+
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .boxes{
+        grid-template-columns: 1fr;
+
+        grid-template-areas: 
+            "box1"
+            "box2"
+            "box3"
+            "box4"
+            "box5"
+            "box6"
+        ;
+
+        gap: 10px;
+        max-width: 500px;
+    }
+
+    .box1, .box2, .box3, .box4, .box5{
+        padding: 24px;
+        max-width: 500px;
+    }
+
+    .episode-cards{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .host-card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+        padding: 15px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .host-card ul{
+        justify-content: center;
+    }
+
+    .linkbar{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .techwave-footer{
+        max-width: 570px;
+    }
+
+    #footer-header{
+        font-size: 15px;
+    }
+
+    .footer-container{
+        padding: 20px 0px;
+    }
+}
