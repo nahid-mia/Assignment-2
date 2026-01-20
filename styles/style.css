@@ -124,7 +124,7 @@ nav ul{
     align-items: center;
     text-align: center;
     padding-bottom: 120px;
-    max-width: 1600px;
+    /* max-width: 1600px; */
 }
 
 .about-container{
@@ -149,7 +149,7 @@ nav ul{
     align-items: center;
     justify-content: center;
     padding-top: 120px;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     padding-bottom: 120px;
 }
 
@@ -234,7 +234,7 @@ nav ul{
 
 .meet-host-section{
     background-color: #1a0b2e;
-    max-width: 1600px;
+    /* max-width: 1600px; */
 }
 
 .meet-host-container{
